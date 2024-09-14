@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-taking with Dictation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="css/mbd.min.css">
+
+<link rel="stylesheet" href="plungins/css/all.min.css"
+
+</head>
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Soumyajit Roy</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#features">FEATURES </a></li>`
+            <li><a href="#product">PRODUCT </a></li>`
+           
+          </ul>
+         </nav>
+        </div>
+         </div> 
+         <div class="container">
+        <div class="page-header" id="GO">
+            
+            <h2 class="text-capitalize" id="home">Welcome</h2>
+            
+            
+         </div>
+    <div class="container">
+        <h1>Note-Taking Webpage</h1>
+
+        
+        <div class="dictation-section">
+            <button id="startDictation">Start Dictation</button>
+            <textarea id="noteArea" placeholder="Your notes will appear here..."></textarea>
+        </div>
+
+        <div class="audio-section">
+            <button id="replayAudio">Replay Audio</button>
+            <input type="range" id="audioSlider" min="0" max="100" value="50">
+        </div>
+
+        
+        <div class="settings-menu">
+            <h2>Settings</h2>
+            <label for="fontSelect">Font Size:</label>
+            <select id="fontSelect">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="colorSelect">Color Theme:</label>
+            <select id="colorSelect">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
